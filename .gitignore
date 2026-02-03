@@ -1,0 +1,32 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE/Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Dependencies (agar future'da node_modules bo'lsa)
+node_modules/
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+
+# Build/Temp Files
+dist/
+build/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+env/
