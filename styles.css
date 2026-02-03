@@ -76,19 +76,27 @@ img {
     padding: 0 1.5rem;
 }
 
-/* ===== Buttons ===== */
 .btn {
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
-    padding: 0.875rem 2rem;
+    padding: 1rem 2.5rem;
     font-size: 1rem;
     font-weight: 600;
     border-radius: var(--radius-lg);
     cursor: pointer;
     transition: var(--transition);
     border: none;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.btn span {
+    flex: 1;
+    min-width: 100px;
+    display: block;
 }
 
 .btn-primary {
@@ -343,7 +351,7 @@ img {
 
 .hero-buttons {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     gap: 1rem;
     margin-bottom: 4rem;
@@ -845,6 +853,19 @@ img {
     box-shadow: var(--shadow-md);
 }
 
+.intro-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    width: 100%;
+}
+
+.intro-content .btn-large {
+    width: 100%;
+    max-width: 450px;
+}
+
 .intro-content h3 {
     font-size: 1.75rem;
     font-weight: 700;
@@ -1053,8 +1074,9 @@ img {
 }
 
 .btn-small {
-    padding: 0.75rem 1.5rem;
+    padding: 0.85rem 2rem;
     font-size: 0.95rem;
+    white-space: nowrap;
 }
 
 /* Submission Process */
@@ -1231,9 +1253,18 @@ img {
 }
 
 .btn-large {
-    padding: 1.25rem 3rem;
-    font-size: 1.125rem;
-    margin: 2rem 0 1.5rem;
+    padding: 1.2rem 2.5rem;
+    font-size: 1.05rem;
+    margin: 1rem 0 1.5rem;
+    width: auto;
+}
+
+.btn-large i {
+    min-width: 24px;
+}
+
+.btn-large span {
+    text-align: center;
 }
 
 .registration-note {
@@ -1956,7 +1987,15 @@ img {
     }
 
     .btn {
-        width: 100%;
+        width: auto;
+        padding: 0.8rem 1.8rem;
+        font-size: 0.9rem;
+    }
+
+    .btn-large {
+        width: auto;
+        padding: 0.9rem 2rem;
+        font-size: 0.95rem;
     }
 
     .organizers-list {
