@@ -1,3 +1,6 @@
+// ===== Configuration =====
+const GOOGLE_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSf1HR3Od07hD0dDPmCIMp1A0S8ZKfMyH1s6f2h1Vsi6XKEaFg/viewform';
+
 // ===== Language Data =====
 const organizingCommittee = {
     uz: [
