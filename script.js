@@ -57,7 +57,8 @@ const programCommittee = {
         { name: 'A.A.Djalilov', role: 'professor, TTPU, O\'zbekiston' },
         { name: 'A.S.Rasulov', role: 'professor, JIDU, O\'zbekiston' },
         { name: 'Sh.Sharaxmetov', role: 'professor, TDIU, O\'zbekiston' },
-        { name: 'V.R.Xojiboyev', role: 'professor, NamMQI, O\'zbekiston' },
+        { name: 'V.R.Xodjibayev', role: 'professor, NamDTU, O\'zbekiston' },
+        { name: 'A.A.Imomov ', role: 'professor, QarDU, O\'zbekiston' },
     ],
     en: [
         { name: 'G.M.Raimova', role: 'professor, UWED, Chair, Uzbekistan' },
@@ -72,7 +73,8 @@ const programCommittee = {
         { name: 'A.A.Djalilov', role: 'professor, TPUT, Uzbekistan' },
         { name: 'A.S.Rasulov', role: 'professor, UWED, Uzbekistan' },
         { name: 'Sh.Sharakhmetov', role: 'professor, TSUE, Uzbekistan' },
-        { name: 'V.R.Khodjiboev', role: 'professor, Namangan engineering-construction institute, Uzbekistan' },
+        { name: 'V.R.Khodjibaev', role: 'professor, Namangan State Technical University, Uzbekistan' },
+        { name: 'A.A.Imomov ', role: 'professor, Karshi State University, Uzbekistan' },
     ],
 };
 
